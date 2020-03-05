@@ -1,0 +1,273 @@
+.section {
+  height: 100vh;
+}
+
+.section.maparea {
+  height: auto;
+}
+
+.div-block {
+  position: fixed;
+  z-index: 10;
+  width: 25%;
+  height: 100vh;
+  background-color: #444aad;
+  box-shadow: 4px 4px 20px 8px rgba(0, 0, 0, 0.48);
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.div-block-2 {
+  margin: 18px;
+}
+
+.heading {
+  font-weight: 300;
+}
+
+.div-block-3 {
+  margin: 67px 18px 18px;
+}
+
+.div-block-3.navigation {
+  text-align: center;
+}
+
+.heading-2 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-block {
+  text-decoration: none;
+}
+
+.link-block.w--current {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.link-block.w--current:hover {
+  width: 200px;
+  border-radius: 10px;
+  background-color: #282b5c;
+}
+
+.dropdown-toggle {
+  -webkit-transition: all 500ms cubic-bezier(0, 0, .427, 1.132);
+  transition: all 500ms cubic-bezier(0, 0, .427, 1.132);
+  color: #fff;
+}
+
+.dropdown-toggle:hover {
+  background-color: #282b5c;
+}
+
+.text-block {
+  font-size: 24px;
+}
+
+.dropdown-list {
+  margin-left: 3px;
+}
+
+.dropdown-list.w--open {
+  z-index: 100;
+  overflow: auto;
+  width: 600px;
+  height: auto;
+  margin-top: -206px;
+  margin-left: 448px;
+  padding: 28px;
+  border-radius: 5px;
+  background-color: #eee;
+  box-shadow: 4px 4px 3px 0 rgba(0, 0, 0, 0.28);
+  -webkit-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}
+
+.icon {
+  margin-top: 23px;
+  margin-left: -5px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.heading-3 {
+  color: #444aad;
+  font-weight: 300;
+  text-align: center;
+}
+
+.text-span {
+  font-weight: 500;
+}
+
+.dropdown-link {
+  margin: 16px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #444aad;
+  font-size: 20px;
+}
+
+.dropdown-link.you {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-bottom: 10px;
+  background-color: #444aad;
+  color: #fff;
+}
+
+.text-span-2 {
+  font-weight: 500;
+}
+
+.div-block-4 {
+  margin: 16px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+  background-color: #444aad;
+}
+
+.heading-4 {
+  margin: 4px 17px 17px 27px;
+  padding: 0px 0px 0px 20px;
+}
+
+.div-block-5 {
+  margin: 16px;
+}
+
+.div-block-5.achievements {
+  display: block;
+}
+
+.div-block-6 {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 999px;
+  background-color: #00afef;
+}
+
+.div-block-7 {
+  width: 90%;
+  height: auto;
+  margin-top: 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 999px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00afef), to(#00afef));
+  background-image: linear-gradient(180deg, #00afef, #00afef);
+  color: #b54242;
+}
+
+.image.env {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#82cb34), to(#82cb34));
+  background-image: linear-gradient(180deg, #82cb34, #82cb34);
+}
+
+.heading-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.body {
+  height: 200vh;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.dropdown {
+  width: 100%;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+
+.dropdown:hover {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.div-block-8 {
+  margin: 7px 7px 34px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #444aad;
+}
+
+.html-embed {
+  padding: 31px;
+}
+
+.submit-button {
+  border-radius: 20px;
+}
+
+.form {
+  margin: 21px 21px 32px;
+}
+
+.form-2 {
+  padding: 0px 50px 50px;
+}
+
+.submit-button-2 {
+  width: 100px;
+  border-radius: 20px;
+  background-color: #70b12b;
+}
+
+.success-message {
+  position: relative;
+  z-index: 20;
+  height: auto;
+  margin: -181px 27px 27px;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #444aad;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.57);
+  color: #fff;
+}
+
+.text-block-2 {
+  font-size: 44px;
+  line-height: 44px;
+}
+
+.heading-6 {
+  color: #ffbe2f;
+  font-weight: 500;
+}
+
+.heading-6.g {
+  color: #a3ef30;
+}
